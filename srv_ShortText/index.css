@@ -1,0 +1,177 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%; }
+  .srv-row_flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin-bottom: 55px; }
+    .srv-row_flex .sub-menu {
+      right: -108px;
+      top: 100%;
+      background-color: #ffffff; }
+  .srv-row__title {
+    margin-right: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 0.9285714286rem;
+    font-style: normal;
+    color: #a4a4a4; }
+  .srv-row__item {
+    position: relative;
+    overflow: hidden;
+    padding: 0; }
+    .srv-row__item:last-child {
+      margin-left: 36px; }
+    .srv-row__item_title {
+      position: absolute;
+      width: calc(100% - 300px);
+      text-align: right;
+      z-index: 20;
+      left: 150px;
+      top: 35px; }
+    .srv-row__item_question {
+      margin-bottom: 24px; }
+  .srv-row__question {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.1428571429rem;
+    line-height: 23px; }
+  .srv-row_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 48px; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-card {
+  position: relative;
+  width: 870px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 92px 130px 55px 130px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e7e5e5;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06); }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.drop-down__wrapper {
+  position: relative;
+  display: block;
+  min-width: 240px;
+  max-height: 220px;
+  overflow-y: auto; }
+.drop-down__list {
+  position: relative;
+  display: block;
+  min-width: 240px;
+  overflow-y: auto;
+  font-size: 1rem;
+  font-weight: 300;
+  font-style: normal;
+  max-height: 0;
+  line-height: 1.5;
+  margin: 0;
+  transition: max-height 0.25s 0s;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .drop-down__list_open {
+    max-height: 220px; }
+.drop-down__feature {
+  display: block;
+  padding: 8px;
+  color: #222222; }
+  .drop-down__feature .checkbox {
+    vertical-align: middle;
+    margin-left: 8px; }
+.drop-down__btn {
+  flex: 1 1 auto;
+  position: relative;
+  width: calc(100% - 42px);
+  text-align: left;
+  padding: 8px 0;
+  font-size: 1.0714285714rem;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  border: 0;
+  margin-left: auto;
+  border-bottom: 1px solid #222222;
+  transition: background-color 0.25s 0s;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .drop-down__btn:hover:not(.drop-down__btn_active) {
+    background-color: #f9f9f9; }
+.drop-down__text {
+  position: relative;
+  float: left;
+  line-height: 1;
+  font-size: 1.1428571429rem;
+  color: #222222; }
+.drop-down__icon {
+  position: relative;
+  top: 2px;
+  float: right;
+  height: 100%;
+  width: auto; }
+  .drop-down__icon svg {
+    display: block;
+    width: 24px;
+    height: 14px;
+    color: currentColor; }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-subMenu {
+  position: absolute;
+  right: -104px;
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dde3e7;
+  border-radius: 3px;
+  min-width: 206px;
+  color: #222222;
+  z-index: 20;
+  text-align: center;
+  margin: 0; }
+  .srv-subMenu__row {
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer; }
+    .srv-subMenu__row .srv-card__text {
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: normal;
+      transition: background-color 0.25s 0s;
+      line-height: 3.1428571429rem; }
+      .srv-subMenu__row .srv-card__text:hover {
+        background-color: #cfd0d0; }
+
+/*# sourceMappingURL=index.css.map */

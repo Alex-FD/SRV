@@ -1,0 +1,36 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.tabs-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  height: inherit;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0; }
+  .tabs-menu_left {
+    vertical-align: top;
+    margin-left: 110px; }
+  .tabs-menu_right {
+    margin-left: auto; }
+  .tabs-menu_theme-smoke {
+    background-color: #dde3e7;
+    justify-content: flex-start;
+    padding: 2px; }
+    .tabs-menu_theme-smoke .menu__item {
+      margin-left: 0; }
+      .tabs-menu_theme-smoke .menu__item:not(:last-of-type) {
+        margin-right: 4px; }
+  .tabs-menu__tab {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .tabs-menu_size_l {
+    font-size: 1.0714285714rem; }
+
+/*# sourceMappingURL=tabs-menu.css.map */

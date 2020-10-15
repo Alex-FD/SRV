@@ -1,0 +1,75 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%;
+  @include margin('bottom', 12px);
+
+  &_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    &_reverse {
+      justify-content: flex-start;
+    }
+  }
+
+  &_control {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    justify-content: flex-start;
+
+    &_add {
+      padding-top: 0;
+      @include margin('top', 30px);
+      @include margin('bottom', 30px);
+    }
+
+    & .menu__item {
+      line-height: setFontSizeRem($rf-size, 34);
+    }
+
+    & .button_create {
+      @include margin('left', 0);
+      justify-self: flex-start;
+    }
+
+    & .button_action {
+      &:nth-of-type(2) {
+        @include margin('right', 20px);
+        color: #ffffff;
+        border-color: #93a1a7;
+        background-color: #93a1a7;
+
+        &:hover {
+          background-color: #ffffff;
+          color: $main-color;
+        }
+      }
+
+      &:nth-of-type(3) {
+        @include margin('right', 20px);
+        color: #ffffff;
+        border-color: #93a1a7;
+        background-color: #93a1a7;
+
+        &:hover {
+          background-color: #ffffff;
+          color: $main-color;
+        }
+      }
+    }
+  }
+
+}

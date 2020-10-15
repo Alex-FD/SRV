@@ -1,0 +1,21 @@
+/*Layout*/
+$bg-main: #f2f3f5;
+$bg-footer: #191919;
+$bg-header: #ffffff;
+$z-index: 20;
+/*Text*/
+$rf-size: 14px;
+$main-font:'Open Sans', Arial, sans-serif;
+$main-color: #222222;
+$suppl-color: #8f8f8f;
+/*Element's colors*/
+$btn-action: #dde3e7;
+$btn-hvr: #dde3e7;
+$warning-msg: #fe5e5e;
+$regular-msg: #0094d8;
+/*Decoration*/
+$border-slim: 1px;
+$border-medium: 2px;
+$transit-time: 0.25s;
+$timing-func: cubic-bezier(.5, .0, .24, .94);
+$text-shadow: 0 0 1px hsla(200, 52%, 6%, 0.02);

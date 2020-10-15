@@ -1,0 +1,77 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%;
+
+  &_flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    @include margin('bottom', 55px);
+  }
+
+  &__title {
+    @include margin('right', 40px);
+    font: {
+      weight: 100;
+      size: setFontSizeRem($rf-size, 13);
+      style: normal;
+    };
+    color: #a4a4a4;
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+
+    &:last-child {
+      @include margin('left', 36px);
+    }
+
+    &_title {
+      position: absolute;
+      width: calc(100% - 300px);
+      text-align: right;
+      z-index: $z-index;
+      left: 150px;
+      top: 35px;
+    }
+
+    &_question {
+      @include margin('bottom', 0);
+    }
+  }
+
+  &__question {
+    @include margin('top', 0);
+    @include margin('bottom', 0);
+    font: {
+      weight: 600;
+      size: setFontSizeRem($rf-size, 16);
+    };
+    line-height: 23px;
+  }
+
+  &_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 42px;
+
+    & .menu__item {
+      line-height: setFontSizeRem($rf-size, 34);
+    }
+  }
+
+}

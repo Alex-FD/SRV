@@ -1,0 +1,71 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%; }
+  .srv-row_flex {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    margin-bottom: 55px; }
+  .srv-row__title {
+    margin-right: 40px;
+    font-weight: 100;
+    font-size: 0.9285714286rem;
+    font-style: normal;
+    color: #a4a4a4; }
+  .srv-row__item {
+    position: relative;
+    overflow: hidden;
+    padding: 0; }
+    .srv-row__item:last-child {
+      margin-left: 36px; }
+    .srv-row__item_title {
+      position: absolute;
+      width: calc(100% - 300px);
+      text-align: right;
+      z-index: 20;
+      left: 150px;
+      top: 35px; }
+    .srv-row__item_question {
+      margin-bottom: 0; }
+  .srv-row__question {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.1428571429rem;
+    line-height: 23px; }
+  .srv-row_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 42px; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-card {
+  position: relative;
+  width: 870px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px 130px 70px 130px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e7e5e5;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06); }
+
+/*# sourceMappingURL=index.css.map */

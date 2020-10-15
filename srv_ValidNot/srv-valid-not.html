@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/normilize.css"/>
+    <link rel="stylesheet" href="../styles/global.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Опрос. Если вариант не выбран</title>
+</head>
+<body class="page">
+<header class="header">
+    <nav class="navbar navbar_top">
+        <div class="menu">
+            <div class="navbar__center">
+                <div class="header__logo">
+                    <img class="header__icon" src="../assets/images/logo_mg.svg"/>
+                </div>
+                <ul class="tabs-menu tabs-menu_left tabs-menu_size_l">
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">О компании</a>
+                    </li>
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">Документация</a>
+                    </li>
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">Сотруднику ГК</a>
+                    </li>
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">Сервисы</a>
+                    </li>
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">Сервисы</a>
+                    </li>
+                    <li class="tabs-menu__tab menu__item">
+                        <a class="menu__link link">Общение и помощь</a>
+                    </li>
+                    <li class="tabs-menu__tab header__search">
+                        <svg class="header__icon" width="20" height="20" viewBox="0 0 20 20"
+                             xmlns="http://www.w3.org/2000/svg" data-svg="search-icon">
+                            <circle fill="none" stroke="#222" stroke-width="1.1" cx="9" cy="9" r="7"></circle>
+                            <path fill="none" stroke="#222" stroke-width="1.1" d="M14,14 L20,20 L14,14 Z"></path>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="main">
+    <div class="main__wrapper">
+        <div class="main__inner">
+            <div class="main__wrapper main__wrapper_horizontal">
+                <div class="srv-card">
+                    <div class="srv-row srv-row_flex">
+                        <label class="srv-checkbox__label" for="srv-name">
+                            <span class="srv-checkbox__text">Название опроса</span>
+                        </label>
+                        <div class="srv-checkbox__input">
+                            <input class="srv-checkbox__field" id="srv-name" type="text" placeholder="Введите название опроса"/>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex">
+                        <label class="srv-checkbox__label">
+                            <span class="srv-checkbox__text">Период проведения</span>
+                        </label>
+                        <div class="srv-checkbox__input srv-checkbox__input_date">
+                            <div class="srv-checkbox__button">
+                                <span class="srv-checkbox__text srv-checkbox__text_placeholder">Выберите дату</span>
+                                <span class="srv-checkbox__icon"><img class="header__icon"  src="assets/icons/calendar-alt.svg" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex">
+                        <div class="srv-checkbox srv-checkbox_all-curved srv-checkbox_a-spread">
+                            <input type="checkbox" id="srv-checkbox" name="" checked/>
+                            <div class="srv-checkbox_state">
+                                <span class="srv-checkbox__text">Анонимно</span>
+                                <label for="srv-checkbox"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex srv-row_flex_reverse">
+                        <label class="srv-checkbox__label srv-checkbox__label_reverse">
+                            <span class="srv-checkbox__text">Тип</span>
+                        </label>
+                        <div class="srv-checkbox__input srv-checkbox__input_type">
+                            <div class="srv-checkbox__button">
+                                <span class="srv-checkbox__text srv-checkbox__text_placeholder">Выберите тип</span>
+                                <span class="srv-checkbox__icon">
+                                    <img class="header__icon" src="assets/icons/list-ul.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex">
+                        <div class="srv-checkbox__input srv-checkbox__input_text">
+                            <label class="srv-checkbox__label" for="srv-question-text">
+                                <input class="srv-checkbox__field" id="srv-question-text" type="text" placeholder="Введите текст вопроса"/>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex srv-row_flex_reverse">
+                        <label class="srv-checkbox__label srv-checkbox__label_reverse">
+                            <span class="srv-checkbox__text">Тип ответа</span>
+                        </label>
+                        <div class="srv-checkbox__input srv-checkbox__input_type">
+                            <div class="srv-checkbox__button">
+                                <span class="srv-checkbox__text srv-checkbox__text_placeholder">Выпадающий список</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_flex">
+                        <div class="srv-checkbox__input srv-checkbox__input_text">
+                            <label class="srv-checkbox__label srv-checkbox__label_warning" for="srv-option-two">
+                                <input class="srv-checkbox__field srv-checkbox__field_invalid" id="srv-option-two" type="text"/>
+                                <span class="srv-checkbox__text srv-checkbox__text_warning">Необходимо заполнить текст варианта ответа</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="srv-row srv-row_control srv-row_control_add">
+                        <button class="button button_add">
+                            <span class="srv-checkbox__icon srv-checkbox__icon_plus">
+                                <img class="header__icon " src="assets/icons/plus.svg" alt="">
+                            </span>
+                            <span class="button__text">Добавить вопрос</span>
+                        </button>
+                    </div>
+                    <div class="srv-row srv-row_control">
+                        <button class="button button_action">
+                            <span class="button__text">Сохранить</span>
+                        </button>
+                        <button class="button button_action">
+                            <span class="button__text">Изменить</span>
+                        </button>
+                        <button class="button button_action">
+                            <span class="button__text">Отмена</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__container">
+            <div class="footer__card footer__card_left">
+                <p class="footer__text footer__text_copyright">
+                    Все сведения, представленные на внутреннем ресурсе компании (Портале)<br>
+                    являются конфиденциальными и не подлежать импользованию для целей,<br>
+                    не связанных с выполнением профессиональных обязанностей, а также<br>
+                    распространению во внешние источники без получения соответсвующего<br>
+                    разрешения от руководства
+                </p>
+                <span class="footer__text footer__text_copyright">&nbsp;<img class="footer__icon" src="../assets/icons/copyright-light.svg">&nbsp;2019&nbsp;АО&nbsp;"Тандер"</span>
+            </div>
+            <div class="footer__card footer__card_col footer__card_right">
+                <div class="footer__row">
+                    <h4 class="footer__text">Задать вопрос по работе пространства</h4>
+                </div>
+                <div class="footer__row">
+                    <a class="footer__link">portal.corp.doc@magnit.ru</a>
+                </div>
+                <div class="footer__row">
+                    <button class="button button_feedback" type="submit" value="feedback">Обратная связь</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

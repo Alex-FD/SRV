@@ -1,0 +1,17 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+.srv-card {
+  position: relative;
+  width: 870px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 50px 136px 100px 140px;
+  @include margin('auto',0);
+  border-radius:setBorderRadius(3px);
+  background-color: $bg-header;
+  border: $border-slim solid #e7e5e5;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+}

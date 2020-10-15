@@ -1,0 +1,23 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  width: 100%;
+  padding: 15px 0 15px 0;
+  height: auto; }
+  .srv-row_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+    .srv-row_control .menu__link {
+      padding: 0 15px;
+      border-radius: 3px;
+      transition: background-color 0.25s 0s; }
+      .srv-row_control .menu__link:hover {
+        background-color: #ffffff; }
+
+/*# sourceMappingURL=srv-row.css.map */

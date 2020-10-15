@@ -1,0 +1,40 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  z-index: 40; }
+  .header__logo {
+    position: fixed;
+    width: 90px;
+    height: 86px;
+    top: 0;
+    cursor: pointer; }
+  .header__search {
+    position: relative;
+    margin-left: auto;
+    justify-self: flex-end;
+    align-self: center;
+    width: 22px;
+    height: 24px;
+    cursor: pointer;
+    line-height: 56px; }
+  .header__icon {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 100%;
+    top: 0;
+    cursor: pointer;
+    outline: none; }
+    .header__icon_curved {
+      border-radius: 0 3px 3px 0;
+      width: 14px;
+      height: 14px;
+      top: calc((100% - 12px) / 2);
+      left: calc((100% - 12px) / 2); }
+
+/*# sourceMappingURL=header.css.map */

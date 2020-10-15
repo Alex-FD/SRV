@@ -1,0 +1,31 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.menu {
+  position: relative;
+  height: 56px;
+  z-index: 20; }
+  .menu__item {
+    display: inline-block;
+    height: inherit;
+    overflow: hidden;
+    z-index: 20;
+    margin-left: 45px;
+    line-height: 4rem; }
+    .menu__item .menu__link:not(.link_control) {
+      transition: color 0.25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+      .menu__item .menu__link:not(.link_control):hover {
+        color: #8f8f8f; }
+  .menu__link {
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+    padding: 0;
+    text-shadow: 0 0 1px rgba(7, 18, 23, 0.02);
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94);
+    z-index: 10; }
+
+/*# sourceMappingURL=menu.css.map */

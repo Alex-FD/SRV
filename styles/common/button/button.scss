@@ -1,0 +1,155 @@
+@import "../../_mixins/mixins";
+@import "../../_colors/colors";
+@import "../../_variables/variables";
+
+.button {
+  height: inherit;
+  padding: 7px 0;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+  border: 0;
+  animation-timing-function: $timing-func;
+
+  &_choose {
+    min-width: 115px;
+    height: 30px;
+    padding: 0;
+    background-color: #ffffff;
+    border: $border-slim solid #cccccc;
+    border-radius: setBorderRadius(3px);
+    color: $main-color;
+    transition: background-color $transit-time 0s, color $transit-time 0s;
+
+    & .button__text {
+      font: {
+        size: setFontSizeRem($rf-size, 10);
+        weight: 400;
+        style: normal;
+      };
+    }
+
+    &:hover {
+      background-color: #93a1a7;
+      color: #ffffff;
+    }
+  }
+
+  &_create {
+    min-width: 160px;
+    background-color: #ffffff;
+    border: $border-slim solid $warning-msg;
+    border-radius: setBorderRadius(3px);
+    color: $warning-msg;
+    @include margin('left', auto);
+    transition: background-color $transit-time 0s, color $transit-time 0s;
+
+    &:hover {
+      background-color: $warning-msg;
+      color: #ffffff;
+    }
+  }
+
+  &_add {
+    min-width: 165px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #dedddd;
+    border: $border-slim solid transparent;
+    color: $regular-msg;
+    transition: background-color $transit-time 0s, color $transit-time 0s, border-color $transit-time 0s;
+
+    &:hover {
+      background-color: #ffffff;
+      border-color: $regular-msg;
+    }
+  }
+
+  &_action {
+    min-width: 138px;
+    width: 138px;
+    padding: 9px 0;
+    border-radius: setBorderRadius(3px);
+    transition: background-color $transit-time 0s, color $transit-time 0s;
+    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, 0.08), 0 2px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+
+    &:first-of-type {
+      @include margin('right', 20px);
+      color: #ffffff;
+      border-color: #93a1a7;
+      background-color: #93a1a7;
+
+      &:hover {
+        background-color: #ffffff;
+        color: $main-color;
+      }
+    }
+
+    &:last-of-type {
+      color: #222222;
+      border-color: #f1f3f5;
+      background-color: #f1f3f5;
+
+      &:hover {
+        background-color: #cfd6dd;
+        color: $main-color;
+      }
+    }
+  }
+
+  &_feedback {
+    width: 146px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #ccc6;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    border-radius: setBorderRadius(3px);
+    color: #ccc6;
+    font: {
+      size: setFontSizeRem($rf-size, 13);
+      weight: 400;
+      style: normal;
+    };
+    line-height: 1.3;
+    transition: border-color $transit-time 0s, color $transit-time 0s;
+
+    &:hover {
+      border-color: #fefdfd;
+      color: #fefdfd;
+    }
+  }
+
+  &_pass {
+    min-width: 104px;
+    background-color: #dde3e7;
+    border: 1px solid transparent;
+    border-radius: setBorderRadius(3px);
+    transition: border-color $transit-time 0s, background-color $transit-time 0s;
+    color: $main-color;
+
+    & .button__text {
+      font: {
+        size: setFontSizeRem($rf-size, 14);
+        weight: 400;
+        style: normal;
+      };
+    }
+
+    &:hover {
+      background-color: #ffffff;
+      border: 1px solid #dde3e7;
+    }
+  }
+
+  &__text {
+    font: {
+      size: setFontSizeRem($rf-size, 13);
+      weight: 400;
+      style: normal;
+    };
+    line-height: setFontSizeRem($rf-size, 20);
+  }
+}

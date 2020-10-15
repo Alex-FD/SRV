@@ -1,0 +1,52 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%;
+  margin-bottom: 12px; }
+  .srv-row_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end; }
+    .srv-row_flex_reverse {
+      justify-content: flex-start; }
+  .srv-row_control {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    justify-content: flex-start; }
+    .srv-row_control_add {
+      padding-top: 0;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+    .srv-row_control .button_create {
+      margin-left: 0;
+      justify-self: flex-start; }
+    .srv-row_control .button_action:nth-of-type(2) {
+      margin-right: 20px;
+      color: #ffffff;
+      border-color: #93a1a7;
+      background-color: #93a1a7; }
+      .srv-row_control .button_action:nth-of-type(2):hover {
+        background-color: #ffffff;
+        color: #222222; }
+    .srv-row_control .button_action:nth-of-type(3) {
+      margin-right: 20px;
+      color: #ffffff;
+      border-color: #93a1a7;
+      background-color: #93a1a7; }
+      .srv-row_control .button_action:nth-of-type(3):hover {
+        background-color: #ffffff;
+        color: #222222; }
+
+/*# sourceMappingURL=srv-row.css.map */

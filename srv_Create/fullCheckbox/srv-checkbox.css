@@ -1,0 +1,190 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-checkbox {
+  position: relative;
+  display: inline-block;
+  height: inherit;
+  width: auto;
+  margin-left: 34px;
+  line-height: 1;
+  white-space: nowrap; }
+  .srv-checkbox__text {
+    display: inline-block;
+    line-height: 16px;
+    float: left;
+    font-weight: 400;
+    font-size: 0.9285714286rem;
+    color: #222222; }
+    .srv-checkbox__text_placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc;
+      line-height: 24px;
+      transition: color 0.25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .srv-checkbox__label {
+    position: relative;
+    display: flex;
+    flex: 1 0 110px;
+    padding: 8px 0;
+    font-size: 0.9285714286rem;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer; }
+    .srv-checkbox__label_reverse {
+      flex: 0 0 80px;
+      justify-content: flex-start; }
+  .srv-checkbox__icon {
+    position: relative;
+    top: 0;
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer; }
+    .srv-checkbox__icon .header__icon {
+      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%); }
+    .srv-checkbox__icon_plus {
+      float: left;
+      top: 4px;
+      width: 12px;
+      height: 12px;
+      filter: invert(48%) sepia(58%) saturate(6135%) hue-rotate(175deg) brightness(99%) contrast(101%); }
+  .srv-checkbox__input {
+    position: relative;
+    height: 100%;
+    flex: 1 1 370px;
+    padding-left: 15px; }
+    .srv-checkbox__input_reverse {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_date {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_type {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_text {
+      flex: 1 1 100%;
+      padding-left: 0; }
+    .srv-checkbox__input_answer {
+      flex: 1 1 100px; }
+    .srv-checkbox__input_option {
+      flex: 1 1 100%; }
+  .srv-checkbox__button {
+    display: block;
+    outline: 0;
+    width: 100%;
+    height: 38px;
+    padding: 6px 10px;
+    font-size: 1.0714285714rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.125rem;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: border-color 0.25s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+    .srv-checkbox__button:hover {
+      border-color: #222222; }
+      .srv-checkbox__button:hover .srv-checkbox__text_placeholder {
+        color: #222222; }
+  .srv-checkbox__field {
+    display: block;
+    outline: 0;
+    width: 100%;
+    height: 38px;
+    padding: 6px 10px;
+    font-size: 1.0714285714rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.125rem;
+    background-clip: padding-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer; }
+    .srv-checkbox__field:focus {
+      outline: 0;
+      border-color: #b8b8b8;
+      box-shadow: 0 0 1px -1px rgba(0, 0, 0, 0.06), 0 0 2px 1px rgba(0, 0, 0, 0.06);
+      caret-color: #222222; }
+    .srv-checkbox__field::placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+    .srv-checkbox__field:-moz-placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+    .srv-checkbox__field::-webkit-input-placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+  .srv-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1rem;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer; }
+    .srv-checkbox input:checked ~ .srv-checkbox_state label:after {
+      background-color: #a2b1b8;
+      transform: scale(1); }
+  .srv-checkbox_state {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: flex-end; }
+    .srv-checkbox_state .srv-checkbox__text .srv-checkbox__svg {
+      position: absolute;
+      display: block;
+      top: calc((100% - 1rem) / 2);
+      left: 0;
+      content: '';
+      width: 1rem;
+      height: 1.0714285714rem;
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #ffffff;
+      stroke-width: 2px;
+      z-index: 1;
+      margin-left: 1px; }
+    .srv-checkbox_state label {
+      position: relative;
+      display: inline-block;
+      min-width: calc(1rem + 2px);
+      cursor: pointer;
+      margin-left: 15px; }
+      .srv-checkbox_state label:after, .srv-checkbox_state label:before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        width: 1.1428571429rem;
+        height: 1.1428571429rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        z-index: 0;
+        box-sizing: border-box; }
+      .srv-checkbox_state label:before {
+        border-color: #93a1a7; }
+      .srv-checkbox_state label:after {
+        transform: scale(1);
+        transform-origin: center center; }
+  .srv-checkbox_all-curved .srv-checkbox_state label:before, .srv-checkbox_all-curved .srv-checkbox_state label:after {
+    border-radius: 17%; }
+  .srv-checkbox_a-spread .srv-checkbox_state label:after {
+    transform: scale(1);
+    transition: background-color 0.25s 0s, transform 0.25s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+
+/*# sourceMappingURL=srv-checkbox.css.map */

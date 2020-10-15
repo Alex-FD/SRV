@@ -1,0 +1,59 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%;
+
+  &_flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  &__item {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    @include margin('bottom', 15px);
+
+    &:last-of-type {
+      @include margin('bottom', 30px);
+    }
+
+    &_question {
+      @include margin('bottom', 0);
+    }
+  }
+
+  &__question {
+    @include margin('top', 0);
+    @include margin('bottom', 25px);
+    font: {
+      weight: 600;
+      size: setFontSizeRem($rf-size, 16);
+    };
+    line-height: 23px;
+  }
+
+  &_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 42px;
+
+    & .menu__item {
+      line-height: setFontSizeRem($rf-size, 34);
+    }
+  }
+
+}

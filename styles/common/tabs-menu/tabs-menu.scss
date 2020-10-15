@@ -1,0 +1,43 @@
+@import "../../_mixins/mixins";
+@import "../../_colors/colors";
+@import "../../_variables/variables";
+
+
+.tabs-menu {
+  display: flex;
+  flex-flow: row nowrap;
+  height: inherit;
+  list-style: none;
+  @include margin('',0);
+  padding: 0;
+  line-height: 0;
+  &_left {
+    vertical-align: top;
+    @include margin('left', 110px);
+  }
+  &_right {
+    @include margin('left', auto);
+  }
+  &_theme-smoke {
+    background-color: #dde3e7;
+    justify-content: flex-start;
+    padding: 2px;
+    & .menu__item {
+      @include margin('left',0);
+      &:not(:last-of-type) {
+        @include margin('right', 4px);
+      }
+    }
+  }
+  &__tab {
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+  }
+  &_size_l {
+    font-size: setFontSizeRem($rf-size, 15);
+  }
+}

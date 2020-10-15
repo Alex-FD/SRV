@@ -1,0 +1,39 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+.srv-subMenu {
+  position: absolute;
+  right: -104px;
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dde3e7;
+  border-radius: setBorderRadius(3px);
+  min-width: 206px;
+  color: $main-color;
+  z-index: $z-index;
+  text-align: center;
+  @include margin('', 0);
+
+  &__row {
+    height: 44px;
+    padding: 0;
+    @include margin('', 0);
+    cursor: pointer;
+
+    & .srv-card__text {
+      width: 100%;
+      font: {
+        size: setFontSizeRem($rf-size, 14);
+        weight: 400;
+        style: normal;
+      };
+      transition: background-color $transit-time 0s;
+      line-height: setFontSizeRem($rf-size, 44);
+
+      &:hover {
+        background-color: #cfd0d0;
+      }
+    }
+  }
+}

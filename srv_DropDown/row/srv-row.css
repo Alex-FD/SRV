@@ -1,0 +1,44 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%; }
+  .srv-row_flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .srv-row__item {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin-bottom: 5px; }
+    .srv-row__item:last-of-type {
+      margin-bottom: 30px; }
+    .srv-row__item_indent {
+      padding-left: 35px; }
+    .srv-row__item_question {
+      margin-bottom: 0; }
+  .srv-row__question {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1.1428571429rem;
+    line-height: 23px; }
+  .srv-row_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 42px; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+
+/*# sourceMappingURL=srv-row.css.map */

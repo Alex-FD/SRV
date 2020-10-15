@@ -1,0 +1,15 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #222222;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.0714285714rem; }
+  .link_control {
+    color: #222222; }
+
+/*# sourceMappingURL=link.css.map */

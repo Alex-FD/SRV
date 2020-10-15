@@ -1,0 +1,21 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.navbar {
+  width: 100%;
+  height: auto;
+  z-index: 20;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06), 0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+  background-color: #ffffff; }
+  .navbar__center {
+    height: inherit;
+    max-width: 1290px;
+    padding: 0 60px;
+    margin: 0 auto; }
+  .navbar_top {
+    position: fixed;
+    top: 0;
+    left: 0; }
+
+/*# sourceMappingURL=navbar.css.map */

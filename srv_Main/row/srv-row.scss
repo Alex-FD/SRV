@@ -1,0 +1,32 @@
+@import "../../styles/_mixins/mixins";
+@import "../../styles/_colors/colors";
+@import "../../styles/_variables/variables";
+
+$link-hvr:#ffffff;
+.srv-row {
+  width: 100%;
+  padding: 15px 0 15px 0;
+  height: auto;
+
+  &_control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+    & .menu__item {
+      line-height: setFontSizeRem($rf-size, 34);
+    }
+
+    & .menu__link {
+      padding: 0 15px;
+      border-radius: setBorderRadius(3px);
+      transition: background-color $transit-time 0s;
+
+      &:hover {
+        background-color: $link-hvr;
+      }
+    }
+  }
+}
+

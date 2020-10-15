@@ -1,0 +1,42 @@
+@import "../../_mixins/mixins";
+@import "../../_colors/colors";
+@import "../../_variables/variables";
+
+$menu-bg-color: transparent;
+$menu-box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+$z-index: 20;
+
+.menu {
+  position: relative;
+  height: 56px;
+  z-index: $z-index;
+
+  &__item {
+    display: inline-block;
+    height: inherit;
+    overflow: hidden;
+    z-index: $z-index;
+    @include margin('left', 45px);
+    line-height: setFontSizeRem($rf-size, 56);
+
+    & .menu__link:not(.link_control) {
+      transition: color $transit-time 0s;
+      animation-timing-function: $timing-func;
+      &:hover {
+        color: $suppl-color;
+      }
+    }
+  }
+
+  &__link {
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+    padding: 0;
+    text-shadow: $text-shadow;
+    animation-timing-function: $timing-func;
+    z-index: $z-index / 2;
+  }
+}
+

@@ -1,0 +1,437 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-card {
+  position: relative;
+  width: 870px;
+  height: auto;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 90px 170px 80px 170px;
+  margin: 0 auto;
+  border-radius: 3px;
+  background-color: #ffffff;
+  border: 1px solid #e7e5e5;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06); }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-row {
+  position: relative;
+  flex: 1 1 100%;
+  padding: 0 8px;
+  text-align: left;
+  height: 100%;
+  margin-bottom: 12px; }
+  .srv-row_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end; }
+    .srv-row_flex_reverse {
+      justify-content: flex-start; }
+  .srv-row_datepicker {
+    position: relative;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    z-index: 80; }
+  .srv-row_control {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    padding-top: 12px;
+    padding-bottom: 0;
+    justify-content: flex-start; }
+    .srv-row_control_add {
+      padding-top: 0;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .srv-row_control .menu__item {
+      line-height: 2.4285714286rem; }
+    .srv-row_control .button_create {
+      margin-left: 0;
+      justify-self: flex-start; }
+    .srv-row_control .button_action:nth-of-type(2) {
+      margin-right: 20px;
+      color: #ffffff;
+      border-color: #93a1a7;
+      background-color: #93a1a7; }
+      .srv-row_control .button_action:nth-of-type(2):hover {
+        background-color: #ffffff;
+        color: #222222; }
+    .srv-row_control .button_action:nth-of-type(3) {
+      margin-right: 20px;
+      color: #ffffff;
+      border-color: #93a1a7;
+      background-color: #93a1a7; }
+      .srv-row_control .button_action:nth-of-type(3):hover {
+        background-color: #ffffff;
+        color: #222222; }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-checkbox {
+  position: relative;
+  display: inline-block;
+  height: inherit;
+  width: auto;
+  margin-left: 34px;
+  line-height: 1;
+  white-space: nowrap; }
+  .srv-checkbox__text {
+    display: inline-block;
+    line-height: 16px;
+    float: left;
+    font-weight: 400;
+    font-size: 0.9285714286rem;
+    color: #222222; }
+    .srv-checkbox__text_placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc;
+      line-height: 24px;
+      transition: color 0.25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+  .srv-checkbox__label {
+    position: relative;
+    display: flex;
+    flex: 1 0 110px;
+    padding: 8px 0;
+    font-size: 0.9285714286rem;
+    font-weight: 300;
+    font-style: normal;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer; }
+    .srv-checkbox__label_reverse {
+      flex: 0 0 80px;
+      justify-content: flex-start; }
+  .srv-checkbox__icon {
+    position: relative;
+    top: 0;
+    float: right;
+    width: 24px;
+    height: 24px;
+    cursor: pointer; }
+    .srv-checkbox__icon .header__icon {
+      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%); }
+    .srv-checkbox__icon_plus {
+      float: left;
+      top: 4px;
+      width: 12px;
+      height: 12px;
+      filter: invert(48%) sepia(58%) saturate(6135%) hue-rotate(175deg) brightness(99%) contrast(101%); }
+  .srv-checkbox__input {
+    position: relative;
+    height: 100%;
+    flex: 1 1 370px;
+    padding-left: 15px; }
+    .srv-checkbox__input_reverse {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_date {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_type {
+      flex: 0 0 165px; }
+    .srv-checkbox__input_text {
+      flex: 1 1 100%;
+      padding-left: 0; }
+    .srv-checkbox__input_answer {
+      flex: 1 1 100px; }
+    .srv-checkbox__input_option {
+      flex: 1 1 100%; }
+  .srv-checkbox__button {
+    display: block;
+    outline: 0;
+    width: 100%;
+    height: 38px;
+    padding: 6px 10px;
+    font-size: 1.0714285714rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.125rem;
+    border: 1px solid #222222;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: border-color 0.25s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+    .srv-checkbox__button .srv-checkbox__text_placeholder {
+      color: #222222; }
+  .srv-checkbox__field {
+    display: block;
+    outline: 0;
+    width: 100%;
+    height: 38px;
+    padding: 6px 10px;
+    font-size: 1.0714285714rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.125rem;
+    background-clip: padding-box;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    cursor: pointer; }
+    .srv-checkbox__field:focus {
+      outline: 0;
+      border-color: #b8b8b8;
+      box-shadow: 0 0 1px -1px rgba(0, 0, 0, 0.06), 0 0 2px 1px rgba(0, 0, 0, 0.06);
+      caret-color: #222222; }
+    .srv-checkbox__field::placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+    .srv-checkbox__field:-moz-placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+    .srv-checkbox__field::-webkit-input-placeholder {
+      font-size: 1rem;
+      font-weight: 300;
+      font-style: normal;
+      color: #cccccc; }
+  .srv-checkbox input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-width: 1rem;
+    z-index: 2;
+    opacity: 0;
+    cursor: pointer; }
+    .srv-checkbox input:checked ~ .srv-checkbox_state label:after {
+      background-color: #a2b1b8;
+      transform: scale(1); }
+  .srv-checkbox_state {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    justify-content: flex-end; }
+    .srv-checkbox_state .srv-checkbox__text .srv-checkbox__svg {
+      position: absolute;
+      display: block;
+      top: calc((100% - 1rem) / 2);
+      left: 0;
+      content: '';
+      width: 1rem;
+      height: 1.0714285714rem;
+      opacity: 0;
+      fill: #ffffff;
+      stroke: #ffffff;
+      stroke-width: 2px;
+      z-index: 1;
+      margin-left: 1px; }
+    .srv-checkbox_state label {
+      position: relative;
+      display: inline-block;
+      min-width: calc(1rem + 2px);
+      cursor: pointer;
+      margin-left: 15px; }
+      .srv-checkbox_state label:after, .srv-checkbox_state label:before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        width: 1.1428571429rem;
+        height: 1.1428571429rem;
+        border: 1px solid transparent;
+        background-color: transparent;
+        z-index: 0;
+        box-sizing: border-box; }
+      .srv-checkbox_state label:before {
+        border-color: #93a1a7; }
+      .srv-checkbox_state label:after {
+        transform: scale(1);
+        transform-origin: center center; }
+  .srv-checkbox_all-curved .srv-checkbox_state label:before, .srv-checkbox_all-curved .srv-checkbox_state label:after {
+    border-radius: 17%; }
+  .srv-checkbox_a-spread .srv-checkbox_state label:after {
+    transform: scale(1);
+    transition: background-color 0.25s 0s, transform 0.25s 0s;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-subMenu {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dde3e7;
+  border-radius: 3px;
+  min-width: 180px;
+  color: #222222;
+  z-index: 20;
+  text-align: center;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06); }
+  .srv-subMenu__row {
+    height: 44px;
+    padding: 0;
+    margin: 0; }
+    .srv-subMenu__row .srv-card__text {
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: normal;
+      cursor: pointer;
+      transition: background-color 0.25s 0s;
+      line-height: 3.1428571429rem; }
+      .srv-subMenu__row .srv-card__text:hover {
+        background-color: #cfd0d0; }
+
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-cal-wrapper {
+  position: absolute;
+  width: 270px;
+  height: 420px;
+  overflow: hidden;
+  top: -60px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  z-index: 20;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  border: 1px solid #f5f5f5;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15); }
+
+.srv-cal-container {
+  position: absolute;
+  height: 100%;
+  overflow: hidden;
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap; }
+
+.calendar-wrap {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 0 10px 0;
+  z-index: 20; }
+  .calendar-wrap table {
+    width: 250px;
+    table-layout: auto;
+    border-collapse: collapse;
+    color: #222222;
+    font-size: 0.8571428571rem;
+    font-weight: 600;
+    font-style: normal; }
+  .calendar-wrap .calendar-body {
+    border-top: 20px solid transparent; }
+  .calendar-wrap .calendar-header {
+    color: #757a7f; }
+  .calendar-wrap td {
+    position: relative;
+    text-align: center;
+    width: 30px;
+    height: 15px;
+    padding: 12px 5px; }
+  .calendar-wrap th {
+    position: relative;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    border-style: hidden;
+    font-size: 0.7142857143rem;
+    font-weight: 600;
+    font-style: normal; }
+  .calendar-wrap tbody:before {
+    position: relative;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 18px;
+    left: 0;
+    background: transparent; }
+
+[data-cell]:before {
+  content: attr(data-cell);
+  position: absolute;
+  top: calc((100% - 40px) / -2);
+  left: calc((100% - 40px) / 2);
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 100%;
+  opacity: 0;
+  background-color: #007fff;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
+  transition: color 0.25s 0s, opacity 0.25s 0s;
+  animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94);
+  line-height: 30px;
+  color: #fff;
+  cursor: pointer; }
+[data-cell]:hover:before {
+  opacity: 1; }
+
+[data-weekend='yes']:before {
+  color: #d80916; }
+
+.srv-nav {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+  width: 100%;
+  padding: 28px 20px 28px 20px;
+  left: 0;
+  top: 0; }
+  .srv-nav__btn {
+    position: relative;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    bottom: 0;
+    z-index: 20; }
+    .srv-nav__btn_prev {
+      transition: color 0.25s 0s, opacity 0.25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+      .srv-nav__btn_prev .header__icon {
+        left: 0; }
+    .srv-nav__btn_next {
+      transition: color 0.25s 0s, opacity 0.25s 0s;
+      animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+      .srv-nav__btn_next .header__icon {
+        right: 0; }
+
+.month-container {
+  position: relative;
+  height: 66px;
+  width: 100%;
+  padding: 23px 10px 23px 10px;
+  left: 0;
+  color: #222222;
+  text-align: center;
+  text-transform: uppercase; }
+  .month-container .month-name {
+    color: #222222;
+    font-size: 0.7142857143rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.2; }
+
+/*# sourceMappingURL=index.css.map */

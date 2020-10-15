@@ -1,0 +1,31 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.srv-subMenu {
+  position: absolute;
+  left: calc(50% - 25px);
+  top: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dde3e7;
+  border-radius: 3px;
+  min-width: 180px;
+  color: #222222;
+  z-index: 20;
+  text-align: center; }
+  .srv-subMenu__row {
+    height: 44px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer; }
+    .srv-subMenu__row .srv-card__text {
+      width: 100%;
+      font-size: 1rem;
+      font-weight: 400;
+      font-style: normal;
+      transition: background-color 0.25s 0s;
+      line-height: 3.1428571429rem; }
+      .srv-subMenu__row .srv-card__text:hover {
+        background-color: #cfd0d0; }
+
+/*# sourceMappingURL=sub-menu.css.map */

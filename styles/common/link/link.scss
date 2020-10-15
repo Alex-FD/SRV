@@ -1,0 +1,22 @@
+@import "../../_mixins/mixins";
+@import "../../_colors/colors";
+@import "../../_variables/variables";
+
+$font-link-size:15;
+$icon-main:#ffffff;
+$link-shadow:1px 1px 3px rgba(0,0,0,0.1),1px 1px 3px rgba(0,0,0,0.1) inset;
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: $main-color;
+  font: {
+    family: $main-font;
+    weight: 400;
+    size: setFontSizeRem($rf-size, $font-link-size);
+  }
+  &_control {
+    color: #222222;
+  }
+
+}

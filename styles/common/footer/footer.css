@@ -1,0 +1,62 @@
+/*Layout*/
+/*Text*/
+/*Element's colors*/
+/*Decoration*/
+.footer {
+  display: block;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  background-color: #191919; }
+  .footer__inner {
+    height: inherit;
+    max-width: 1475px;
+    padding: 50px 30px 50px 30px;
+    margin: 0 auto; }
+  .footer__container {
+    display: flex;
+    flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+  .footer__icon {
+    position: relative;
+    top: 1px;
+    float: left;
+    text-align: center;
+    height: 13px;
+    width: 13px;
+    filter: invert(95%) sepia(100%) saturate(0%) hue-rotate(92deg) brightness(112%) contrast(100%); }
+  .footer__link {
+    text-decoration: none;
+    color: #fe5e5e; }
+  .footer__row:not(:first-of-type) {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 16px; }
+  .footer__text {
+    display: block;
+    margin: 0;
+    color: #fefdfd;
+    font-weight: 400;
+    font-style: normal; }
+    .footer__text_copyright {
+      font-size: 0.9285714286rem;
+      text-align: left;
+      line-height: 1.2;
+      margin: 0; }
+      .footer__text_copyright:nth-child(2) {
+        margin-top: 15px; }
+  .footer__card {
+    width: calc(100% / 2);
+    padding: 10px;
+    display: block;
+    height: auto; }
+    .footer__card_left {
+      text-align: left;
+      padding-left: 0; }
+    .footer__card_right {
+      text-align: right;
+      padding-right: 0; }
+
+/*# sourceMappingURL=footer.css.map */
