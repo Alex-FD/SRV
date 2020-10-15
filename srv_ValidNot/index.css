@@ -199,17 +199,17 @@
       font-size: 1rem;
       font-weight: 300;
       font-style: normal;
-      color: #cccccc; }
+      color: #C8C8C8; }
     .srv-checkbox__field:-moz-placeholder {
       font-size: 1rem;
       font-weight: 300;
       font-style: normal;
-      color: #cccccc; }
+      color: #C8C8C8; }
     .srv-checkbox__field::-webkit-input-placeholder {
       font-size: 1rem;
       font-weight: 300;
       font-style: normal;
-      color: #cccccc; }
+      color: #C8C8C8; }
   .srv-checkbox input {
     position: absolute;
     left: 0;

@@ -324,12 +324,12 @@ body {
     width: 146px;
     height: 35px;
     display: inline-block;
-    border: 1px solid #ccc6;
+    border: 1px solid #cccccc;
     cursor: pointer;
     text-align: center;
     background-color: transparent;
     border-radius: 3px;
-    color: #ccc6;
+    color: #cccccc;
     font-size: 0.9285714286rem;
     font-weight: 400;
     font-style: normal;
