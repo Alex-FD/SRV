@@ -11,7 +11,7 @@
   top: -60px;
   @include border-radius(5px);
   background-color: #ffffff;
-  z-index: $z-index ;
+  z-index: $z-index;
   padding: 0;
   display: flex;
   flex-direction: row;
@@ -92,27 +92,30 @@
 
 
 [data-cell] {
+  color: $main-color;
+  transition: color $transit-time 0s;
+  animation-timing-function: $timing-func;
   &:before {
-    content: attr(data-cell);
+    content: '';
     position: absolute;
-    top: calc((100% - 40px) / -2);
+    top: calc((100% - 40px) / 2);
     left: calc((100% - 40px) / 2);
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+    height: 40px;
+    width: 40px;
+    padding: 0;
     text-align: center;
     @include border-radius(100%);
     opacity: 0;
     background-color: #007fff;
-    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06);
-    transition: color $transit-time 0s, opacity $transit-time 0s;
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 6px 0 rgba(0, 0, 0, 0.06);
+    transition: opacity $transit-time 0s;
     animation-timing-function: $timing-func;
-    line-height: 30px;
-    color: #fff;
     cursor: pointer;
+    z-index: -1;
   }
 
   &:hover {
+    color: #ffffff;
     &:before {
       opacity: 1;
     }
@@ -120,8 +123,11 @@
 }
 
 [data-weekend ='yes'] {
-  &:before {
-    color: #d80916;
+  color: #fe5e5e;
+  transition: color $transit-time / 2 0s;
+  animation-timing-function: $timing-func;
+  &:hover {
+    color: #FF2B00;
   }
 }
 
