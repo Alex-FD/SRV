@@ -272,7 +272,8 @@
   min-width: 180px;
   color: #222222;
   z-index: 20;
-  text-align: center; }
+  text-align: center;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(0, 0, 0, 0.08), 0 2px 5px 0 rgba(0, 0, 0, 0.06); }
   .srv-subMenu__row {
     height: 44px;
     padding: 0;
