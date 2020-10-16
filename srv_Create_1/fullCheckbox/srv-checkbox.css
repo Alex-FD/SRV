@@ -48,11 +48,12 @@
     cursor: pointer; }
     .srv-checkbox__icon_plus {
       float: left;
-      top: 5px;
-      width: 10px;
-      height: 10px;
-      margin-right: 4px; }
+      top: 3px;
+      width: 14px;
+      height: 14px;
+      margin-right: 2px; }
       .srv-checkbox__icon_plus .header__icon {
+        width: 14px;
         fill: #0094D8; }
   .srv-checkbox__input {
     position: relative;

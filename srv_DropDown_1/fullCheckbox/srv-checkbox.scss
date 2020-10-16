@@ -131,12 +131,13 @@
 
     &_plus {
       float: left;
-      top: 5px;
-      width: 10px;
-      height: 10px;
-      @include margin('right', 4px);
+      top: 3px;
+      width: 14px;
+      height: 14px;
+      @include margin('right', 2px);
 
       & .header__icon {
+        width: 14px;
         fill: #0094D8;
       }
     }

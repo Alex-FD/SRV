@@ -21,14 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a990d42e-f06b-4922-9a48-9480ca240920" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/.sass-cache/ee878750d3017b3cfd492cc0be25e398858b7263/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/.sass-cache/ee878750d3017b3cfd492cc0be25e398858b7263/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/fullCheckbox/.sass-cache/ee878750d3017b3cfd492cc0be25e398858b7263/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/fullCheckbox/.sass-cache/ee878750d3017b3cfd492cc0be25e398858b7263/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/fullCheckbox/srv-checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_Create/srv-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create/srv-create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/.sass-cache/910c57b6d431f2544d1a291741a25c904591bebb/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/.sass-cache/910c57b6d431f2544d1a291741a25c904591bebb/srv-checkbox.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/fullCheckbox/.sass-cache/910c57b6d431f2544d1a291741a25c904591bebb/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/fullCheckbox/.sass-cache/910c57b6d431f2544d1a291741a25c904591bebb/srv-checkbox.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/fullCheckbox/srv-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/fullCheckbox/srv-checkbox.css" afterDir="false" />
@@ -37,22 +29,6 @@
       <change beforePath="$PROJECT_DIR$/srv_Create_1/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/index.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/srv-create.html" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/srv-create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/.sass-cache/6ab67ef03f30b3bdd837db4df953a2ff8b08bbc4/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/.sass-cache/6ab67ef03f30b3bdd837db4df953a2ff8b08bbc4/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/.sass-cache/6ab67ef03f30b3bdd837db4df953a2ff8b08bbc4/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/.sass-cache/6ab67ef03f30b3bdd837db4df953a2ff8b08bbc4/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/fullCheckbox/srv-checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/srv-drop-down-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/srv-drop-down-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/.sass-cache/038cdc5b6a9c6e3e4c9cd8f7e3aaf20261578178/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/.sass-cache/038cdc5b6a9c6e3e4c9cd8f7e3aaf20261578178/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/.sass-cache/038cdc5b6a9c6e3e4c9cd8f7e3aaf20261578178/srv-checkbox.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/.sass-cache/038cdc5b6a9c6e3e4c9cd8f7e3aaf20261578178/srv-checkbox.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/fullCheckbox/srv-checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_ValidNot/srv-valid-not.html" beforeDir="false" afterPath="$PROJECT_DIR$/srv_ValidNot/srv-valid-not.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +107,7 @@
       <workItem from="1602636406086" duration="2276000" />
       <workItem from="1602652459408" duration="3057000" />
       <workItem from="1602792044557" duration="3209000" />
-      <workItem from="1602822659959" duration="8379000" />
+      <workItem from="1602822659959" duration="9914000" />
     </task>
     <servers />
   </component>
