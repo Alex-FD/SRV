@@ -93,8 +93,9 @@
 
 [data-cell] {
   color: $main-color;
-  transition: color $transit-time 0s;
+  transition: color $transit-time / 2 0s;
   animation-timing-function: $timing-func;
+
   &:before {
     content: '';
     position: absolute;
@@ -116,6 +117,7 @@
 
   &:hover {
     color: #ffffff;
+
     &:before {
       opacity: 1;
     }
@@ -126,8 +128,10 @@
   color: #fe5e5e;
   transition: color $transit-time / 2 0s;
   animation-timing-function: $timing-func;
+
   &:hover {
     color: #FF2B00;
+    //color: #D80916;
   }
 }
 

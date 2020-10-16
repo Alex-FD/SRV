@@ -75,12 +75,12 @@
     width: 146px;
     height: 35px;
     display: inline-block;
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(204, 204, 204, 0.4);
     cursor: pointer;
     text-align: center;
     background-color: transparent;
     border-radius: 3px;
-    color: #cccccc;
+    color: rgba(204, 204, 204, 0.4);
     font-size: 0.9285714286rem;
     font-weight: 400;
     font-style: normal;

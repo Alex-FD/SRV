@@ -29,7 +29,13 @@
       <change beforePath="$PROJECT_DIR$/srv_Create_1/calendar/srv-calendar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/calendar/srv-calendar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/srv_Create_1/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/srv_Create_1/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/srv_DropDown_1/srv-drop-down-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/srv_DropDown_1/srv-drop-down-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/fee0dca94827bac3afc481d7858884f2ab1dc820/button.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/fee0dca94827bac3afc481d7858884f2ab1dc820/button.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/common/button/.sass-cache/fee0dca94827bac3afc481d7858884f2ab1dc820/button.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common/button/.sass-cache/fee0dca94827bac3afc481d7858884f2ab1dc820/button.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/common/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common/button/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/common/button/button.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common/button/button.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/common/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/common/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/global.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/global.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +113,8 @@
       <workItem from="1602564667126" duration="53220000" />
       <workItem from="1602636406086" duration="2276000" />
       <workItem from="1602652459408" duration="3057000" />
-      <workItem from="1602792044557" duration="3034000" />
+      <workItem from="1602792044557" duration="3209000" />
+      <workItem from="1602822659959" duration="3558000" />
     </task>
     <servers />
   </component>

@@ -59,7 +59,7 @@ Calendar.prototype.createMonthThead = function () {
     th.innerHTML = this.dayNames[i];
     tr.appendChild(th);
     if (i === 6 || i === 5) {
-      th.style.color = "#fe5e5e";
+      th.setAttribute("data-weekend", "yes");
     }
   }
   thead.appendChild(tr);
@@ -75,7 +75,6 @@ Calendar.prototype.placeDaysInCells = function (monthData, tbody) {
         let cell = document.createElement("td");
         if (i === 6 || i === 5) {
           cell.setAttribute("data-weekend", "yes");
-          cell.style.color = "#fe5e5e";
         }
         cell.setAttribute("data-cell", day);
         cell.innerHTML = String(day);
