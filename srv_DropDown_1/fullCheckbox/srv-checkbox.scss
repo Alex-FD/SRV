@@ -88,9 +88,6 @@
     height: 24px;
     cursor: pointer;
 
-    & .header__icon {
-      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%);
-    }
 
     &_del {
       position: absolute;
@@ -134,10 +131,14 @@
 
     &_plus {
       float: left;
-      top: 4px;
-      width: 12px;
-      height: 12px;
-      filter: invert(48%) sepia(58%) saturate(6135%) hue-rotate(175deg) brightness(99%) contrast(101%);
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      @include margin('right', 4px);
+
+      & .header__icon {
+        fill: #0094D8;
+      }
     }
   }
 
@@ -190,6 +191,10 @@
     cursor: pointer;
     transition: border-color $transit-time 0s;
     animation-timing-function: $timing-func;
+
+    & .header__icon {
+      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%);
+    }
 
     &:hover {
       border-color: $main-color;
@@ -287,7 +292,6 @@
     }
 
   }
-
 
   &_state {
     display: flex;

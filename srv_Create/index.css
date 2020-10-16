@@ -114,14 +114,14 @@
     width: 24px;
     height: 24px;
     cursor: pointer; }
-    .srv-checkbox__icon .header__icon {
-      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%); }
     .srv-checkbox__icon_plus {
       float: left;
-      top: 4px;
-      width: 12px;
-      height: 12px;
-      filter: invert(48%) sepia(58%) saturate(6135%) hue-rotate(175deg) brightness(99%) contrast(101%); }
+      top: 5px;
+      width: 10px;
+      height: 10px;
+      margin-right: 4px; }
+      .srv-checkbox__icon_plus .header__icon {
+        fill: #0094D8; }
   .srv-checkbox__input {
     position: relative;
     height: 100%;
@@ -155,6 +155,8 @@
     cursor: pointer;
     transition: border-color 0.25s 0s;
     animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
+    .srv-checkbox__button .header__icon {
+      filter: invert(64%) sepia(57%) saturate(0%) hue-rotate(236deg) brightness(97%) contrast(91%); }
     .srv-checkbox__button:hover {
       border-color: #222222; }
       .srv-checkbox__button:hover .srv-checkbox__text_placeholder {
