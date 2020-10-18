@@ -160,6 +160,7 @@
 
       & .header__icon {
         left: 0;
+        filter: none;
       }
     }
 
@@ -169,6 +170,7 @@
 
       & .header__icon {
         right: 0;
+        filter: none;
       }
     }
   }

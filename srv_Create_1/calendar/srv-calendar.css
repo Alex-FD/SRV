@@ -125,12 +125,14 @@
       transition: color 0.25s 0s, opacity 0.25s 0s;
       animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
       .srv-nav__btn_prev .header__icon {
-        left: 0; }
+        left: 0;
+        filter: none; }
     .srv-nav__btn_next {
       transition: color 0.25s 0s, opacity 0.25s 0s;
       animation-timing-function: cubic-bezier(0.5, 0, 0.24, 0.94); }
       .srv-nav__btn_next .header__icon {
-        right: 0; }
+        right: 0;
+        filter: none; }
 
 .month-container {
   position: relative;
